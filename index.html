@@ -12,13 +12,16 @@
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
+  <!-- 背景光斑（已与现有样式兼容） -->
   <div class="bg-orb orb1"></div>
   <div class="bg-orb orb2"></div>
 
+  <!-- 顶部 -->
   <header class="site-header">
     <div class="brand">
       <div class="avatar-wrap">
-        <img src="./assets/mia-portrait.png" alt="Portrait of Mia Huber" class="avatar" />
+        <!-- 头像改为根目录图片 -->
+        <img src="./mia-portrait.png" alt="Portrait of Mia Huber" class="avatar" />
       </div>
       <div class="id">
         <h1>Mia Huber</h1>
@@ -36,6 +39,7 @@
   </header>
 
   <main>
+    <!-- Hero -->
     <section class="hero">
       <div class="hero-text">
         <h2>Hello! I'm Mia Huber</h2>
@@ -43,6 +47,8 @@
         <blockquote>
           <span>"When God closes this door, he will open another window for you."</span>
         </blockquote>
+
+        <!-- CTA 三个按钮：Email / WhatsApp / Facebook -->
         <div class="cta-row">
           <a class="btn btn-email" href="mailto:miafree007007@gmail.com?subject=Hi%20Mia%20—%20from%20your%20site">
             <i class="fa-solid fa-envelope"></i><span>Email</span>
@@ -54,18 +60,23 @@
             <i class="fa-brands fa-facebook-f"></i><span>Facebook</span>
           </a>
         </div>
+        <!-- 已移除那条 LinkedIn 的 Tip 注释 -->
       </div>
+
       <div class="hero-photo">
-        <img src="./assets/mia-portrait.png" alt="Full portrait of Mia Huber" />
+        <!-- 右侧大图同样指向根目录图片 -->
+        <img src="./mia-portrait.png" alt="Full portrait of Mia Huber" />
       </div>
     </section>
 
+    <!-- About -->
     <section id="about" class="card glass">
       <h3>About</h3>
-      <p>I am a sincere person and a believer in the law of attraction: treat people well and goodness returns.</p>
+      <p>I am a very sincere person and a believer in the law of attraction: if I treat others well, they will treat me well.</p>
       <p>I believe if we trust the goodness of the world, it reveals more of it to us.</p>
     </section>
 
+    <!-- Experience -->
     <section id="experience" class="card">
       <h3>Experience</h3>
       <div class="timeline">
@@ -73,36 +84,41 @@
           <h4>Alpha Bank · Athens</h4>
           <p class="meta">Full-time · 7 years 10 months</p>
           <ul>
-            <li><strong>Research Assistant / Researcher</strong> (Oct 2007 – Nov 2008) — Insider-state automation (multi-input DNN, logistic DNN); Volatility risk premium via realized volatility forecasting (GARCH).</li>
+            <li><strong>Research Assistant / Researcher</strong> (Oct 2007 – Nov 2008) — Insider-state automation (multi-input DNN, logistic DNN); volatility risk premium via realized volatility forecasting (GARCH).</li>
             <li><strong>Business Administrator</strong> (Nov 2008 – May 2011) — Budgeting, variance analysis, cost allocation, transfer pricing policy compliance, management reporting & forecasting, business-case cost/benefit analysis.</li>
             <li><strong>Investment Analyst / Gold Trader</strong> (May 2011 – Jul 2015) — Finance & business analytics; Excel expert; Python, R, SQL; Tableau, Power BI, SAS; communication & teamwork.</li>
           </ul>
         </article>
+
         <article class="item">
           <h4>Alantra Wealth Management · Athens (Contract)</h4>
           <p class="meta">Sep 2015 – Nov 2017</p>
-          <p>Evaluate investments, research protocol specs & teams; identify opportunities; implications for risk management, portfolio construction & optimization; monthly performance analysis & reporting.</p>
+          <p>Evaluate investments, research protocol specs & teams; identify non-obvious capital deployment opportunities; implications for risk management, portfolio construction & optimization; monthly performance analysis & reporting.</p>
         </article>
+
         <article class="item">
           <h4>T-Life Capital (formerly Charamida) · Athens (Contract)</h4>
           <p class="meta">Nov 2017 – Oct 2019</p>
           <p>Ratings for financial institutions, banks & sovereigns; applications for credit lines; predictive modeling on integrated datasets; improved forecast accuracy & variance presentations.</p>
         </article>
+
         <article class="item">
           <h4>Self-Employed · Europe (Remote)</h4>
           <p class="meta">Nov 2019 – Present</p>
-          <p>Research + evaluation, trend reasoning, risk & portfolio optimization; monthly performance analysis & reporting.</p>
+          <p>Research & evaluation, trend reasoning, risk & portfolio optimization; monthly performance analysis & reporting.</p>
         </article>
       </div>
     </section>
 
+    <!-- Education -->
     <section id="education" class="card glass">
       <h3>Education</h3>
       <ul class="bullets">
-        <li><strong>National & Kapodistrian University of Athens</strong> — Postgraduate in Finance (Excellent). Accounting Club, managerial accounting & IMA collaboration.</li>
+        <li><strong>National & Kapodistrian University of Athens</strong> — Postgraduate in Finance (Excellent). Accounting Club; managerial accounting & IMA collaboration.</li>
       </ul>
     </section>
 
+    <!-- Volunteering -->
     <section id="volunteer" class="card">
       <h3>Volunteering</h3>
       <ul class="bullets">
@@ -111,6 +127,7 @@
       </ul>
     </section>
 
+    <!-- Skills -->
     <section id="skills" class="card glass">
       <h3>Skills</h3>
       <ul class="tags">
@@ -121,6 +138,7 @@
       </ul>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="card contact">
       <h3>Contact</h3>
       <div class="contact-cards">
@@ -134,7 +152,6 @@
           <i class="fa-brands fa-facebook-f"></i><span>Facebook</span>
         </a>
       </div>
-      <!-- Removed extra social icon and phone number to clean the footer contact section -->
     </section>
   </main>
 
