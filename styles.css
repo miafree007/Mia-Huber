@@ -101,3 +101,7 @@ main{position:relative;z-index:1}
   .nav{padding-left:24px}
   .hero-text h2{font-size:30px}
 }
+
+
+/* Facebook button style */
+.btn-facebook{background:#1877F2;}
